@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1440px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  .slideshow > div > .big-img {
+    position: absolute;
+    width: auto;
+    left: 51%;
+    top: 23%;
+    height: 400px;
+  }
+
+  .hero-text > h1 {
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .hero-text > p {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .about-village > .wrapper {
+    width: 80%;
+  }
+
+  .column > .big-img {
+    position: absolute;
+    width: auto;
+    margin-top: 50px;
+    height: 430px;
+    z-index: -9999;
+  }
+
+  .services-village > .wrapper {
+    width: 80%;
+  }
+
+  .contact-village > .wrapper {
+    width: 80%;
+  }
+
+  .big-img {
+    position: absolute;
+    width: auto;
+    height: 430px;
+    z-index: -9999;
+  }
+}
+
+/* for phones */
+@media only screen and (max-width: 768px) {
+
+}
